@@ -1,0 +1,28 @@
+header h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 100px auto;
+}
+
+form div {
+    margin: 3px auto;
+}
+
+.text-input {
+    margin-top: 2px;
+    height: 30px;
+    border: 1px solid #SeSeSe;
+    font-size: 20px;
+    padding: 1px;
+    width: 100%;
+}
+
+.button {
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+}

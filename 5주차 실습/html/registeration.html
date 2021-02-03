@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="../css/registeration.css">
+</head>
+<body>
+    <header>
+        <h1>회원가입</h1>
+    </header>
+    <form name="vform" action="register.php" method="POST" onsubmit="return validate()">
+        <div>
+            <input type="text" name="userId" class="text-input" placeholder="사용자 아이디">
+        </div>
+        <div>
+            <input type="password" name="password" class="text-input" placeholder="패스워드는 6자 이상입니다.">
+        </div>
+        <div>
+            <input type="password" name="passwordConfirm" class="text-input" placeholder="패스워드 확인">
+        </div>
+        <div><input type="submit" value="등록" class="button" name="register"></div>
+    </form>
+    <script src="../js/registeration.js"></script>
+</body>
+</html>
