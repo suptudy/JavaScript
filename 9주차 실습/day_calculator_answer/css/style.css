@@ -1,0 +1,17 @@
+#main-title{
+    text-align: center;
+}
+
+.day-input {
+    text-align: center;
+    height: 30px;
+}
+
+#year, #month, #day {
+    text-align: right;
+}
+
+#display {
+    text-align: center;
+    font-size: 50px;
+}
