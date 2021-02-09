@@ -1,0 +1,14 @@
+.highlight {
+    background-color: Yellow;
+    font-size: 30px;
+    font-style: italic;
+    color: blue;
+}
+
+.bstyle {
+    font-weight: bolder;
+}
+
+.line {
+    border: 1px solid Red;
+}
